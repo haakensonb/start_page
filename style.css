@@ -18,4 +18,9 @@ ul {
 
 .box {
   margin: 10px;
+  width: 250px;
+}
+
+.content {
+  display: none;
 }
