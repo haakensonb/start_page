@@ -5,13 +5,19 @@
   <title>Muh StartPage</title>
   <link rel="stylesheet" type="text/css" href="style.css">
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
+  <link href="https://fonts.googleapis.com/css?family=PT+Sans" rel="stylesheet">
+
 </head>
 
 <body>
+  <div class="searchbox">
+    <input id="textbox" type="text" placeholder="Google..." onkeydown="searchOnEnter();" />
+  </div>
+
   <div class="container">
     <div class="box">
       <div class="category">
-        <h3><p>Fun</p></h3>
+        <h3><p><span class="word-border">Fun</span></p></h3>
       </div>
 
       <div class="content">
@@ -28,7 +34,7 @@
 
     <div class="box">
       <div class="category">
-        <h3><p>CTF</p></h3>
+        <h3><p><span class="word-border">CTF</span></p></h3>
       </div>
 
       <div class="content">
@@ -46,7 +52,7 @@
 
     <div class="box">
       <div class="category">
-        <h3><p>Web</p></h3>
+        <h3><p><span class="word-border">Web</span></p></h3>
       </div>
 
       <div class="content">
@@ -64,7 +70,7 @@
 
     <div class="box">
       <div class="category">
-        <h3><p>Interesting</p></h3>
+        <h3><p><span class="word-border">Interesting</span></p></h3>
       </div>
 
       <div class="content">
